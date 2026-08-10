@@ -8,16 +8,25 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MediatR" Version="14.2.0"/>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9"/>
+        <PackageReference Include="Scalar.AspNetCore" Version="2.16.18"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
-      <Content Include="..\.gitignore">
-        <Link>.gitignore</Link>
-      </Content>
+        <Content Include="..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+        <Content Include="..\.gitignore">
+            <Link>.gitignore</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Application\"/>
+        <Folder Include="Domain\"/>
+        <Folder Include="Infrastructure\"/>
+        <Folder Include="Presentation\"/>
     </ItemGroup>
 
 </Project>
