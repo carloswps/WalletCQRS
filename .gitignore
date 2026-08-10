@@ -1,0 +1,65 @@
+## .NET / Visual Studio / Rider
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.tmp
+.vs/
+.vscode/
+.idea/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.exe
+*.dll
+*.pdb
+*.cache
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.TestResults.xml
+*.coverage
+
+## Entity Framework / Scaffolding
+*.mdf
+*.ldf
+*.db
+*.db-shm
+*.db-wal
+
+## User-specific files
+*.user
+*.dotSettings.user
+*.DotSettings.user
+
+## Publish / deploy
+publish/
+PublishScripts/
+*.pubxml
+*.publishproj
+
+## Env & secrets
+.env
+.env.*
+appsettings.Local.json
+appsettings.Development.json
+secrets.json
